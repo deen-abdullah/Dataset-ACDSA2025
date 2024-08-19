@@ -1,0 +1,11 @@
+use python3
+
+Run the python file: halstead.py to merge halstead values of the codeforce codes
+
+Following files should be in the same directory where .csv file will be
+
+Inputfile: code.cpp
+Exe file : main.exe
+
+Set the .csv file name in halstead.py ::->:: Run the python file: halstead.py
+
