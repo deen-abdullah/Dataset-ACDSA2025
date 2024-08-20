@@ -1,7 +1,8 @@
-# Classification-of-Codeforce-Programs
+# Analysis of Computer Program
 
+## Data sets preparation
 
-## Files Descriptions
+### Files Descriptions
 1. userinfo.py: collect user information from codeforce (cf_rated_users.json)
 2. prog.py: collect source code for a specific contest (for n contests we will get n number of csv files)
 3. merge.py: merge source code information and userinformation (for n contests we will get n number of merged csv filse)
@@ -13,10 +14,10 @@
 9. balanceFinalData_region.py: Balancing Region (output files: balanceRegion.csv + Individual problem sets)
 
 
-## Final Datasets
+### Final Datasets
 balanceGender.csv, balanceRegion.csv, final_data.csv, (+Individual problemsets)
 
-## Finally
+### Finally
 After completing all above things do the following sequentially:
 1. (halstead.py + main.exe): Calculate Halstead using 
 2. feature.py: Calculate Cyclometic Complexity
