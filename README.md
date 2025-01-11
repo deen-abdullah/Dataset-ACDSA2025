@@ -12,10 +12,10 @@
 7. mergeName.py: Add gender information by merging 'cleaned_data.csv' and 'gender.json' [Add continent information from 'continent.json'] (one output file: final_data.csv)
 8. balanceFinalData_gender.py: Balancing Male and Female coder (output files: balanceGender.csv + Individual problem sets)
 9. balanceFinalData_region.py: Balancing Region (output files: balanceRegion.csv + Individual problem sets)
-
+10. train.py: train and test different ML algorithms using given data sets
 
 ### Final Datasets
-balanceGender.csv, balanceRegion.csv, final_data.csv, (+Individual problemsets)
+raw_data.csv, balanceGender.csv, balanceRegion.csv, final_data.csv, (+Individual problemsets)
 
 ### Finally
 After completing all above things do the following sequentially:
@@ -24,5 +24,4 @@ After completing all above things do the following sequentially:
 
 ---
 
-### N.B. All balanced data sets have been uploaded in 'Dataset' directory.
-
+### N.B. All data sets have been uploaded in 'Dataset' directory.
